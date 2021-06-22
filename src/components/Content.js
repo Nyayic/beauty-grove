@@ -47,7 +47,7 @@ const Content = () => {
         </div>
 
         <div className="item-center px-20 pt-10 text-5xl bg-yellow-100">
-            <h2>Featured Saloons</h2>
+            <h2>Featured Salons</h2>
         </div>
         <div className="flex item-center px-10 bg-yellow-100">
             <div className="flex flex-col justify-center items-center bg-yellow-100 h-screen font-mono py-40 px-10">
