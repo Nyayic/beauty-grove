@@ -1,5 +1,11 @@
 import React from 'react'
-import ImageOne from '../images/throw-pillow.jpg'
+import SalonOne from '../images/saloon1.jpg'
+import SalonTwo from '../images/saloon2.jpg'
+import SalonThree from '../images/saloon3.jpg'
+import Bride from '../images/bride1.jpg'
+import Makeup from '../images/makeup1.jpg'
+import HairstyleOne from '../images/braid1.jpg'
+import HairstyleTwo from '../images/braid3.jpg'
 
 const Content = () => {
     return (
@@ -10,7 +16,7 @@ const Content = () => {
 
         <div className="flex item-center px-10 bg-yellow-50"> 
             <div className="menu-card">
-                <img src={ImageOne} alt="beauty" className="h-full rounded mb-10 shadow" />
+                <img src={Bride} alt="beauty" className="h-full rounded mb-10 shadow" />
                 <div className="flex flex-col justify-center items-center">
                     <h2 className="text-2xl">Bridal Make up</h2>
                     
@@ -18,16 +24,23 @@ const Content = () => {
             </div>
           
             <div className="menu-card">
-                <img src={ImageOne} alt="beauty" className="h-full rounded mb-10 shadow" />
+                <img src={Makeup} alt="beauty" className="h-full rounded mb-10 shadow" />
                 <div className="flex flex-col justify-center items-center">
-                    <h2 className="text-2xl">Birthday Party Make up</h2>
+                    <h2 className="text-2xl">Simple Make up</h2>
                     
                 </div>  
             </div>
             <div className="menu-card">
-                <img src={ImageOne} alt="beauty" className="h-full rounded mb-10 shadow" />
+                <img src={HairstyleOne} alt="beauty" className="h-full rounded mb-10 shadow" />
                 <div className="flex flex-col justify-center items-center">
-                    <h2 className="text-2xl">Hairstyles</h2>
+                    <h2 className="text-2xl">Braid Hairstyles</h2>
+                   
+                </div>  
+            </div>
+            <div className="menu-card">
+                <img src={HairstyleTwo} alt="beauty" className="h-full rounded mb-10 shadow" />
+                <div className="flex flex-col justify-center items-center">
+                    <h2 className="text-2xl">Weave Hairstyles</h2>
                    
                 </div>  
             </div>
@@ -38,7 +51,7 @@ const Content = () => {
         </div>
         <div className="flex item-center px-10 bg-yellow-100">
             <div className="flex flex-col justify-center items-center bg-yellow-100 h-screen font-mono py-40 px-10">
-                <img src={ImageOne} alt="beauty" className="h-full rounded mb-10 shadow" />
+                <img src={SalonOne} alt="beauty" className="h-full rounded mb-10 shadow" />
                 <div className="flex flex-col justify-center items-center">
                     <h2 className="text-2xl mb-0">Sparkles Saloon</h2>
                     <p className="mb-0"> Bugolobi, Lugogo Mall, Naalya</p>
@@ -47,7 +60,7 @@ const Content = () => {
             </div>
           
             <div className="flex flex-col justify-center items-center bg-yellow-100 h-screen font-mono py-40 px-10">
-                <img src={ImageOne} alt="beauty" className="h-full rounded mb-10 shadow" />
+                <img src={SalonTwo} alt="beauty" className="h-full rounded mb-10 shadow" />
                 <div className="flex flex-col justify-center items-center">
                     <h2 className="text-2xl mb-0">Head Masters</h2>
                     <p className="mb-0"> Bukoto Street</p>
@@ -55,7 +68,7 @@ const Content = () => {
                 </div>  
             </div>
             <div className="flex flex-col justify-center items-center bg-yellow-100 h-screen font-mono py-40 px-10">
-                <img src={ImageOne} alt="beauty" className="h-full rounded mb-10 shadow" />
+                <img src={SalonThree} alt="beauty" className="h-full rounded mb-10 shadow" />
                 <div className="flex flex-col justify-center items-center">
                     <h2 className="text-2xl mb-0">Teo Bridal Saloon</h2>
                     <p className="mb-0"> Kansanga</p>
