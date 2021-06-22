@@ -17,7 +17,7 @@ function Register() {
                         <label for="password">Password: </label>
                         <input type="password" className="form-control mb-4" /><br/>
                         <label for="password">Confirm Password: </label>
-                        <input type="password" className="form-control mb-4" /><br/>
+                        <input type="password" className="form-control mb-4" /><br/><br/>
                         <button className="btn">Create Account</button> <br/>
 
                         <h1 className="text-1xl  font-black mb-14"> Already have an account?  
