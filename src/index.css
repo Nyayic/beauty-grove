@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .menu-card{
-    @apply flex flex-col justify-center items-center bg-white h-screen font-mono py-40 px-10;
+    @apply flex flex-col justify-center items-center bg-yellow-50 h-screen font-mono py-40 px-10;
 }

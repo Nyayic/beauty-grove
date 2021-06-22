@@ -9,14 +9,12 @@ const Dropdown = ({isOpen, toggle}) => {
             : 'hidden'
             } onClick={toggle}
             >
-             <Link className='p-4' to='/'>Home</Link>
-            <Link className='p-4' to='/about'>About</Link>
-
-            <Link className='p-4' to='/shop'>Shop</Link>
-
-            <Link className='p-4' to='/contact'>Contact</Link>
-
-            
+                <Link className='p-4' to='/'>Home</Link>
+                <Link className='p-4' to='/about'>About</Link>
+                <Link className='p-4' to='/services'>Services</Link>
+                <Link className='p-4' to='/contact'>Contact</Link>
+                <Link className='p-4' to='/register'>Register</Link>
+      
         </div>
     )
 }

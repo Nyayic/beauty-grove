@@ -6,6 +6,17 @@ const Contact = () => {
             <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl  font-black mb-14">
              Contact Us
             </h1>
+            <div className="bg-yellow-50 h-100 p-20 shadow justify-center items-center flex flex-col">
+                <h3>Phone: 
+                    <span> +256780482684</span>
+                </h3>
+                <h3>Email: 
+                    <span> info@beautygrove.com</span>
+                </h3>
+                <h3>Website:
+                    <span> www.beautygrove.com</span>
+                </h3>
+            </div>
         </div>
     )
 }

@@ -5,38 +5,40 @@ import Home from './pages';
 import About from './pages/About'
 import Footer from './components/Footer';
 import {Switch, Route} from 'react-router-dom'
-import Shop from './pages/Shop';
+import Services from './pages/Services';
 import Contact from './pages/Contact';
+import Register from './pages/Register'
 import Dropdown from './components/Dropdown';
 
 function App() {
-    const [isOpen, setIsOpen]=useState(false)
+    const [isOpen, setIsOpen] = useState(false)
     const toggle = () =>{
         setIsOpen(!isOpen)
-    }
+    };
     useEffect(()=>{
         const hideMenu = () =>{
-            if(window.innerWidth> 768 && isOpen) {
+            if(window.innerWidth > 768 && isOpen) {
                 setIsOpen(false)
                 console.log('i resized')
             }
 
         }
         window.addEventListener('resize', hideMenu)
-        return()=>{
+        return () => {
             window.removeEventListener('resize', hideMenu)
         }
-    })
+    });
 
     return ( 
         <>
            <Navbar toggle={toggle} />
-           <Dropdown isOpen= {isOpen} toggle={toggle} />
+           <Dropdown isOpen = {isOpen} toggle={toggle} />
            <Switch>
                <Route path='/' exact component={Home}/>
                <Route path='/about' component={About} />
-               <Route path='/shop' component={Shop} />
+               <Route path='/services' component={Services} />
                <Route path='/contact' component={Contact} />
+               <Route path='/register' component={Register} />
            </Switch>
           
            <Footer />
