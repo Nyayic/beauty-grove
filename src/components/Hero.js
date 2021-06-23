@@ -7,7 +7,7 @@ const Hero = () => {
             <h1 className="lg:text-9xl md:text-7xl sm:text-5xl text-3xl  font-black mb-14">
              Beauty Grove
             </h1>
-            <h2 className="md:text-6xl mb-14">All your Saloon services in one place</h2>
+            <h2 className="md:text-6xl mb-14">Book Salon Services from one place</h2>
             <Link to="/services" className="py-6 px-10 bg-yellow-400 rounded-full 
                 text-3xl hover:bg-yellow-200 transition duration-300 ease-in-out flex items-center">
                 Book a Service 
