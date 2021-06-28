@@ -9,6 +9,7 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Register from './pages/Register'
 import Dropdown from './components/Dropdown';
+import Stylists from './pages/Stylists';
 
 function App() {
     const [isOpen, setIsOpen] = useState(false)
@@ -37,6 +38,7 @@ function App() {
                <Route path='/' exact component={Home}/>
                <Route path='/about' component={About} />
                <Route path='/services' component={Services} />
+               <Route path='/stylists' component={Stylists} />
                <Route path='/contact' component={Contact} />
                <Route path='/register' component={Register} />
            </Switch>

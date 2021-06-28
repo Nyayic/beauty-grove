@@ -12,6 +12,7 @@ const Dropdown = ({isOpen, toggle}) => {
                 <Link className='p-4' to='/'>Home</Link>
                 <Link className='p-4' to='/about'>About</Link>
                 <Link className='p-4' to='/services'>Services</Link>
+                <Link className='p-4' to='/stylists'>Stylists</Link>
                 <Link className='p-4' to='/contact'>Contact</Link>
                 <Link className='p-4' to='/register'>Register</Link>
         </div>
